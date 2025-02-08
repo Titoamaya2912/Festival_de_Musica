@@ -1,0 +1,27 @@
+{
+  "name": "festivalmusicarenovado",
+  "version": "1.0.0",
+  "description": "Festival de musica renovado",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/img/scss:build/css",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "GULP"
+  ],
+  "author": "Jhon Amaya",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^11.0.0",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.80.4",
+    "sharp": "^0.33.5",
+    "terser": "^5.36.0"
+  }
+}
